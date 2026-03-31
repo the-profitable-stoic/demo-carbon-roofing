@@ -1,0 +1,662 @@
+{
+  "business": {
+    "name": "Carbon Roofing",
+    "phone": "(312) 555-0002",
+    "category": "roofing",
+    "city": "Chicago",
+    "state": "IL"
+  },
+  "design": {
+    "preset": {
+      "id": "roofing-dark-premium",
+      "categoryGroup": "roofing",
+      "name": "Dark Premium",
+      "recipeFile": "roofing/dark-premium.astro",
+      "colors": {
+        "primary": "#FF6B35",
+        "primaryDark": "#E05A2B",
+        "primaryLight": "#FFD4C2",
+        "secondary": "#2A2A2A",
+        "accent": "#FF8C5A",
+        "background": "#1A1A1A",
+        "backgroundAlt": "#111111",
+        "surface": "#2A2A2A",
+        "text": "#F5F5F5",
+        "textLight": "#A0A0A0",
+        "textOnDark": "#FFFFFF",
+        "border": "#3A3A3A"
+      },
+      "typography": {
+        "headingFont": "Space Grotesk",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "6px",
+        "buttonRadius": "6px",
+        "cardRadius": "10px",
+        "shadowStyle": "glow"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "dark",
+          "surface",
+          "dark",
+          "surface",
+          "dark"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "roofing/dark-premium"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Chicago Roofing You Can Trust",
+      "heroSubline": "Carbon Roofing protects your home from Lake Michigan's harsh weather. Family-owned and serving Chicagoland for over a decade.",
+      "aboutTitle": "Built on Chicago Values",
+      "aboutText": [
+        "Founded in 2012, Carbon Roofing started as a small crew repairing bungalow roofs in Logan Square. Today, we're a team of 20+ specialists serving the entire Chicago metro area.",
+        "We believe in doing the job right the first time. Every roof gets our full attention, from historic Evanston homes to downtown high-rises. No shortcuts, just Chicago-quality craftsmanship.",
+        "When we're not on rooftops, you'll find us volunteering with neighborhood associations and sponsoring Little League teams across Cook County."
+      ],
+      "valueProps": [
+        {
+          "title": "Weather-Tested",
+          "description": "Our materials withstand Chicago's freeze-thaw cycles and lake-effect storms."
+        },
+        {
+          "title": "Local Knowledge",
+          "description": "We know every housing style from Wicker Park bungalows to Naperville McMansions."
+        },
+        {
+          "title": "Transparent Pricing",
+          "description": "No surprises - just honest quotes with detailed breakdowns."
+        },
+        {
+          "title": "Fast Response",
+          "description": "24/7 emergency repairs when storms hit the North Shore."
+        }
+      ],
+      "ctaHeadline": "Need a Roof That Lasts?",
+      "ctaSubline": "Get a free inspection from Chicago's most trusted roofing team."
+    },
+    "services": [
+      {
+        "slug": "roof-replacement",
+        "name": "Roof Replacement",
+        "shortDescription": "Complete roof overhauls designed for Chicago's punishing climate.",
+        "description": "When your roof can't handle another Chicago winter, we'll replace it with materials built to last. Our team specializes in:\n\nHistoric home preservation: We match original materials on vintage properties while adding modern weatherproofing.\n\nEnergy-efficient upgrades: Cool roofing options to combat summer humidity and reduce AC costs.\n\nStorm-resistant installations: Heavy-duty underlayment and ice barriers prevent leaks from lake-effect snow.\n\nWe handle permits, debris removal, and final inspections so you don't have to worry about city requirements. Every project includes a 10-year craftsmanship warranty.",
+        "process": [
+          "Step 1: Free inspection with moisture mapping and structural assessment",
+          "Step 2: Material selection consultation (we bring samples to your home)",
+          "Step 3: Permitting and HOA approval assistance",
+          "Step 4: Tear-off and installation with daily cleanup"
+        ],
+        "benefits": [
+          "Increased home value with proper ventilation systems",
+          "Lower energy bills through reflective materials",
+          "Peace of mind during polar vortex events",
+          "Enhanced curb appeal with architectural shingles"
+        ],
+        "faq": [
+          {
+            "question": "How long does a Chicago roof replacement take?",
+            "answer": "Most homes take 2-3 days, but historic properties may require 5-7 days for careful detailing. We work around your schedule and Chicago's unpredictable weather."
+          },
+          {
+            "question": "What roofing materials work best in Chicagoland?",
+            "answer": "For most homes, we recommend impact-resistant asphalt shingles with ice/water shield. Flat roofs downtown often need modified bitumen, while luxury homes may opt for standing seam metal."
+          },
+          {
+            "question": "Will you match my historic home's original look?",
+            "answer": "Absolutely. We've sourced period-appropriate materials for everything from Victorian turrets to Prairie School low-slopes across Evanston and Oak Park."
+          }
+        ]
+      },
+      {
+        "slug": "storm-damage-repair",
+        "name": "Storm Damage Repair",
+        "shortDescription": "24/7 emergency repairs when Chicago weather strikes.",
+        "description": "Lake Michigan storms can destroy roofs in hours. Our rapid response teams deploy across Cook County with:\n\nEmergency tarping: We secure leaks within 4 hours of your call to prevent interior damage.\n\nHail damage expertise: Specialized assessment tools document every dent for insurance claims.\n\nWind uplift repairs: Reinforced flashing systems prevent future shingle loss in high-wind zones.\n\nWe work directly with all major insurers and provide full documentation for claims. Last winter alone, we helped 47 Arlington Heights families navigate storm damage paperwork.\n\nFor immediate help: Call (312) 555-0002 - our storm hotline operates 365 days a year.",
+        "process": [
+          "Step 1: Emergency call assessment (photos/video accepted)",
+          "Step 2: On-site damage evaluation within 2 hours",
+          "Step 3: Temporary stabilization if needed",
+          "Step 4: Permanent repairs scheduled around weather"
+        ],
+        "benefits": [
+          "Prevent mold from water intrusion",
+          "Maximize insurance claim recoveries",
+          "Protect against subsequent storms",
+          "Maintain structural integrity"
+        ],
+        "faq": [
+          {
+            "question": "What storm damage is covered by insurance?",
+            "answer": "Most policies cover hail, wind, and fallen tree damage. We'll help you document everything properly - last month we secured full coverage for a Schaumburg client's $14k roof replacement."
+          },
+          {
+            "question": "How quickly should I address storm damage?",
+            "answer": "Immediately. Even small leaks can cause rot in Chicago's humidity. We've seen $500 repairs turn into $5,000 fixes when left untreated through winter."
+          },
+          {
+            "question": "Do you handle garage and shed repairs too?",
+            "answer": "Yes - we service all structures on your property. Many Naperville homeowners bundle main house and detached garage repairs for efficiency."
+          }
+        ]
+      },
+      {
+        "slug": "commercial-roofing",
+        "name": "Commercial Roofing",
+        "shortDescription": "Durable solutions for Chicago businesses and multi-unit properties.",
+        "description": "From Lincoln Park storefronts to Aurora strip malls, we keep businesses dry with commercial roofing that stands up to Great Lakes weather:\n\nFlat roof specialists: Modified bitumen, TPO, and EPDM systems for low-slope buildings common in Chicago's commercial corridors.\n\nMinimal disruption: We schedule after-hours and weekend work for retail locations.\n\nPreventative maintenance: Customized inspection plans catch small issues before they become expensive leaks.\n\nOur team is OSHA certified and fully insured for commercial work. Recent projects include a 12,000 sq ft roofing replacement for a Wicker Park co-working space and ongoing maintenance for a 15-building condo association in Lakeview.",
+        "process": [
+          "Step 1: Property assessment with infrared moisture scanning",
+          "Step 2: Solution design meeting with ownership/management",
+          "Step 3: Phased implementation around business hours",
+          "Step 4: Ongoing maintenance program setup"
+        ],
+        "benefits": [
+          "Reduced liability from leaks",
+          "Extended roof lifespan",
+          "Energy savings with reflective coatings",
+          "Preserved property value"
+        ],
+        "faq": [
+          {
+            "question": "How often should commercial roofs be inspected?",
+            "answer": "We recommend quarterly checks - especially after Chicago's harsh winters. Our maintenance clients get priority scheduling before storm season."
+          },
+          {
+            "question": "What's the best roofing for Chicago restaurants?",
+            "answer": "Grease-resistant TPO works well for kitchens, while modified bitumen handles heavy foot traffic from rooftop dining areas downtown."
+          },
+          {
+            "question": "Can you work around my business hours?",
+            "answer": "Absolutely. We've completed overnight installations for hotels and Sunday projects for churches across Evanston and Skokie."
+          }
+        ]
+      },
+      {
+        "slug": "gutter-installation",
+        "name": "Gutter Installation",
+        "shortDescription": "Heavy-duty gutters that handle Chicago's downpours and ice dams.",
+        "description": "Chicago's intense rainfall and freeze-thaw cycles demand gutters that won't fail. Our installations prevent foundation damage and ice dams:\n\n6-inch oversized gutters: Move water away from your home twice as fast as standard sizes during summer cloudbursts.\n\nHeated gutter systems: Electric heating cables prevent ice buildup in north-facing eaves common in Arlington Heights.\n\nHistorical accuracy: We replicate original gutter profiles on vintage homes while improving drainage.\n\nLast year, we installed 3,200 linear feet of seamless aluminum gutters across Naperville's historic districts. Every job includes downspout extensions to direct water at least 5 feet from your foundation - crucial in Chicago's clay soil.",
+        "process": [
+          "Step 1: Water flow analysis around your property",
+          "Step 2: Custom gutter sizing and style selection",
+          "Step 3: Seamless on-site fabrication",
+          "Step 4: Installation with hidden hangers"
+        ],
+        "benefits": [
+          "Prevent basement flooding",
+          "Eliminate ice dam formation",
+          "Protect landscaping from erosion",
+          "Reduce foundation cracking"
+        ],
+        "faq": [
+          {
+            "question": "How often should gutters be cleaned in Chicago?",
+            "answer": "At least twice yearly - after fall leaf drop and before spring rains. Many Schaumburg clients opt for our maintenance plans with three annual cleanings."
+          },
+          {
+            "question": "What gutter material lasts longest here?",
+            "answer": "Seamless aluminum outperforms vinyl in our climate. For premium homes, copper gutters develop a beautiful patina while lasting 50+ years."
+          },
+          {
+            "question": "Can gutters help with my ice dam problems?",
+            "answer": "Yes - proper sizing and slope prevents water backup that leads to dams. We've solved chronic ice issues for 19 homes along Lake Michigan's snowbelt last winter."
+          }
+        ]
+      },
+      {
+        "slug": "roof-inspection",
+        "name": "Roof Inspection",
+        "shortDescription": "Comprehensive assessments to catch Chicago weather damage early.",
+        "description": "Most roof failures start small. Our 27-point inspections identify vulnerabilities before they become emergencies:\n\nDrone-assisted surveys: High-resolution imaging reveals hidden damage on steep roofs common in Evanston's historic districts.\n\nMoisture mapping: Infrared cameras detect trapped water you can't see - critical after Chicago's wet springs.\n\nInsurance documentation: Detailed reports with timestamped photos satisfy carrier requirements.\n\nWe've performed over 1,200 inspections across Cook County, helping homeowners like you make informed repair decisions. Many clients schedule annual checkups each fall to prepare for winter.\n\nFirst-time customers get a free basic inspection with any service quote.",
+        "process": [
+          "Step 1: Exterior assessment of shingles, flashing, and penetrations",
+          "Step 2: Attic inspection for ventilation and insulation issues",
+          "Step 3: Moisture scanning with thermal imaging",
+          "Step 4: Detailed report with repair priorities"
+        ],
+        "benefits": [
+          "Early leak detection",
+          "Maximized roof lifespan",
+          "Insurance compliance",
+          "Pre-purchase peace of mind"
+        ],
+        "faq": [
+          {
+            "question": "How often should I get my roof inspected?",
+            "answer": "Annually for most homes, bi-annually for properties over 20 years old. After major storms, we recommend checks even if damage isn't visible."
+          },
+          {
+            "question": "What does a Chicago roof inspection cost?",
+            "answer": "Our full inspection is $250 - about 1% of what you'd pay for undetected water damage. Many clients apply this fee toward any needed repairs."
+          },
+          {
+            "question": "Do you inspect flat roofs differently?",
+            "answer": "Yes - we perform flood testing on flat surfaces and check all seams thoroughly. Downtown condo boards rely on our semi-annual flat roof evaluations."
+          }
+        ]
+      },
+      {
+        "slug": "shingle-repair",
+        "name": "Shingle Repair",
+        "shortDescription": "Targeted fixes for wind-damaged or aging shingles.",
+        "description": "Chicago's gusty lake winds can tear shingles loose year-round. Our precision repairs blend seamlessly with your existing roof:\n\nColor matching: We maintain samples from 37 shingle manufacturers to ensure invisible repairs on Naperville's upscale homes.\n\nWind-resistant techniques: Specialized adhesives and fasteners prevent recurring damage in high-exposure areas.\n\nGranule loss analysis: We identify wear patterns that signal larger issues - like the consistent south-side erosion we see on many Arlington Heights ranches.\n\nMost shingle repairs take under two hours. We keep common materials in stock at our West Loop warehouse for faster service when storms hit multiple homes in your neighborhood.",
+        "process": [
+          "Step 1: Damage assessment with granule loss evaluation",
+          "Step 2: Shingle selection from our extensive inventory",
+          "Step 3: Precision removal and replacement",
+          "Step 4: Sealant application and cleanup"
+        ],
+        "benefits": [
+          "Prevent underlying deck damage",
+          "Maintain uniform appearance",
+          "Stop leaks before they start",
+          "Extend time between full replacements"
+        ],
+        "faq": [
+          {
+            "question": "Can you repair just a few missing shingles?",
+            "answer": "Yes - we regularly fix small sections while preserving surrounding materials. Last month we repaired a 3-shingle wind loss on a Lincoln Park brownstone without disturbing adjacent slate."
+          },
+          {
+            "question": "How long do shingle repairs last?",
+            "answer": "Our repairs typically outlast the surrounding roof. We warranty all work for 5 years - twice the Chicago-area average."
+          },
+          {
+            "question": "Will repaired areas look different?",
+            "answer": "Not with our color-matching system. We've successfully blended repairs on multicolored architectural shingles throughout Aurora's newer developments."
+          }
+        ]
+      },
+      {
+        "slug": "metal-roofing",
+        "name": "Metal Roofing",
+        "shortDescription": "Durable metal roofs built for Chicago's extreme weather swings.",
+        "description": "More Chicago homeowners are choosing metal for its longevity and weather resistance. Our installations feature:\n\nStanding seam systems: Concealed fasteners prevent leaks in high-wind zones near Lake Michigan.\n\nSnow shedding design: Steeper pitches prevent heavy accumulation on north suburban homes.\n\nHistorical adaptations: We install copper and zinc options that complement vintage architecture in Oak Park and Evanston.\n\nWhile metal costs more upfront, our clients save long-term with 50+ year lifespans and energy efficiency. The reflective surfaces can lower attic temperatures by 20°F during Chicago's humid summers.\n\nRecent projects include a charcoal gray standing seam roof on a modern Lincoln Square home and traditional copper installations for two Hyde Park historic district properties.",
+        "process": [
+          "Step 1: Structural evaluation for weight requirements",
+          "Step 2: Material selection (steel, aluminum, copper, zinc)",
+          "Step 3: Custom panel fabrication",
+          "Step 4: Installation with expansion joints for seasonal movement"
+        ],
+        "benefits": [
+          "Withstands 120mph winds",
+          "Fire resistant",
+          "Energy Star certified options",
+          "Low maintenance"
+        ],
+        "faq": [
+          {
+            "question": "Is metal roofing noisy during rain?",
+            "Answer": "Not with proper installation. We include sound-deadening underlayment - clients in rainy Rogers Park report it's quieter than their old asphalt roof."
+          },
+          {
+            "question": "How does metal handle Chicago's temperature swings?",
+            "Answer": "Our systems include expansion joints that accommodate the 100°F+ annual temperature range. They perform perfectly from winter's -20°F to summer's 90°F+ humidity."
+          },
+          {
+            "question": "Can metal go over my existing roof?",
+            "Answer": "Sometimes - we assess your current structure's condition first. Many Schaumburg homes qualify for overlay installations that save on tear-off costs."
+          }
+        ]
+      }
+    ],
+    "serviceAreas": [
+      {
+        "city": "Naperville",
+        "slug": "naperville-il",
+        "state": "IL",
+        "content": "Serving Naperville's upscale neighborhoods since 2015, we understand the unique roofing needs of this thriving community. From the historic district's Victorian homes to newer subdivisions near the Riverwalk, we install roofs that complement Naperville's architectural diversity while standing up to harsh winters.\n\nMany Naperville homeowners choose us for our expertise with luxury materials like architectural shingles and standing seam metal. We're familiar with local HOA requirements and complete projects with minimal disruption to your beautifully landscaped property.",
+        "localContext": "Naperville's large homes need durable roofing to protect their substantial investments. Heavy snow loads require proper structural support.",
+        "nearbyAreas": [
+          "Lisle",
+          "Aurora",
+          "Bolingbrook"
+        ]
+      },
+      {
+        "city": "Aurora",
+        "slug": "aurora-il",
+        "state": "IL",
+        "content": "Aurora's mix of historic downtown buildings and newer west-side developments demands versatile roofing expertise. We've repaired slate roofs on Near East Side landmarks and installed weather-resistant membranes on commercial properties along the Fox River.\n\nOur team knows how to navigate Aurora's unique microclimates - from the wind tunnels near the Chicago Premium Outlets to the heavy snow accumulation areas near Phillips Park. We stock common repair materials locally for faster response when storms hit.",
+        "localContext": "Aurora's diverse housing ranges from 19th-century structures to modern developments, each requiring specialized roofing approaches.",
+        "nearbyAreas": [
+          "Naperville",
+          "Montgomery",
+          "North Aurora"
+        ]
+      },
+      {
+        "city": "Schaumburg",
+        "slug": "schaumburg-il",
+        "state": "IL",
+        "content": "Schaumburg's 1970s-80s housing boom created thousands of homes now needing roof attention. We specialize in updating these aging roofs with modern materials that maintain their original character while adding durability.\n\nFrom the distinctive A-frame homes near Woodfield Mall to the sprawling ranch styles in Weathersfield, we've completed over 200 projects in Schaumburg. Our familiarity with local building codes ensures smooth permitting for your roof replacement or repair.",
+        "localContext": "Schaumburg's original roofs are reaching the end of their lifespans, making timely inspections crucial.",
+        "nearbyAreas": [
+          "Hoffman Estates",
+          "Elk Grove Village",
+          "Rolling Meadows"
+        ]
+      },
+      {
+        "city": "Evanston",
+        "slug": "evanston-il",
+        "state": "IL",
+        "content": "Evanston's historic preservation standards demand roofing contractors with specialized knowledge. We've restored slate roofs on landmarked homes near Northwestern University and replicated original wood shake appearances with modern materials in the Lakeshore Historic District.\n\nOur team understands Evanston's strict architectural review processes. We provide detailed material samples and installation plans to streamline approval for your project. Many local homeowners appreciate our discreet worksite practices that respect the neighborhood's character.",
+        "localContext": "Evanston's historic homes require careful roofing approaches that balance preservation with weather protection.",
+        "nearbyAreas": [
+          "Skokie",
+          "Wilmette",
+          "Rogers Park"
+        ]
+      },
+      {
+        "city": "Arlington Heights",
+        "slug": "arlington-heights-il",
+        "state": "IL",
+        "content": "Arlington Heights' established neighborhoods feature distinctive mid-century roofing styles we know how to maintain. From the low-slope roofs on Eichler-inspired homes to the dramatic peaks of Arlington Countryside properties, we've repaired and replaced them all.\n\nWe're familiar with the specific challenges of Arlington Heights' mature trees - installing protective measures against falling branches and designing gutter systems that handle heavy leaf loads. Our local references include several projects along the Arlington Heights Historical Society's home tour route.",
+        "localContext": "Arlington Heights' 1950s-70s homes often need roof updates that respect their original architectural intent.",
+        "nearbyAreas": [
+          "Mount Prospect",
+          "Palatine",
+          "Buffalo Grove"
+        ]
+      },
+      {
+        "city": "Lincoln Park",
+        "slug": "lincoln-park-il",
+        "state": "IL",
+        "content": "Lincoln Park's iconic greystones and vintage homes require roofing specialists who understand historic materials. We've restored original clay tile roofs along Armitage Avenue and replicated intricate flashing details on Victorian-era properties near the zoo.\n\nOur team navigates Chicago's strict building codes with ease, securing permits for everything from small repairs to complete roof replacements. We schedule projects around Lincoln Park's busy street cleaning and parking restrictions to minimize neighborhood impact.",
+        "localContext": "Lincoln Park's historic districts demand roofing solutions that preserve architectural integrity while providing modern protection.",
+        "nearbyAreas": [
+          "Lakeview",
+          "Old Town",
+          "Bucktown"
+        ]
+      },
+      {
+        "city": "Wicker Park",
+        "slug": "wicker-park-il",
+        "state": "IL",
+        "content": "Wicker Park's mix of historic homes and modern lofts presents unique roofing challenges. We've installed green roofs on converted industrial buildings along Milwaukee Avenue and restored original tin ceilings on 19th-century worker's cottages.\n\nOur familiarity with Wicker Park's varied roofscapes means we can handle everything from flat commercial roofs to steeply pitched residential ones. We source materials locally when possible, supporting the neighborhood's artisan economy.",
+        "localContext": "Wicker Park's creative spirit extends to its roofing needs, blending historic preservation with innovative solutions.",
+        "nearbyAreas": [
+          "Bucktown",
+          "Ukrainian Village",
+          "West Town"
+        ]
+      },
+      {
+        "city": "Hyde Park",
+        "slug": "hyde-park-il",
+        "state": "IL",
+        "content": "Hyde Park's academic community deserves roofing contractors who respect its intellectual heritage while providing practical solutions. We've worked on everything from University of Chicago faculty housing to the distinctive mansions along the Midway Plaisance.\n\nOur team understands the particular weather patterns that affect Hyde Park's lakefront location. We install enhanced wind-resistant systems to handle gusts coming off Lake Michigan and use materials that resist salt air corrosion.",
+        "localContext": "Hyde Park's proximity to Lake Michigan requires roofing materials that can withstand enhanced weather extremes.",
+        "nearbyAreas": [
+          "Kenwood",
+          "Woodlawn",
+          "South Shore"
+        ]
+      },
+      {
+        "city": "Lakeview",
+        "slug": "lakeview-il",
+        "state": "IL",
+        "content": "Lakeview's dense housing and busy streets demand roofing contractors who work efficiently without sacrificing quality. We've completed projects on everything from Wrigleyville's iconic brick buildings to high-rise condos along the lakefront.\n\nOur team schedules work around Lakeview's many street festivals and Cubs games to minimize disruption. We're experts at navigating the neighborhood's permit requirements and association rules for condo buildings.",
+        "localContext": "Lakeview's mix of vintage and modern housing requires adaptable roofing solutions for each property type.",
+        "nearbyAreas": [
+          "Lincoln Park",
+          "Uptown",
+          "North Center"
+        ]
+      },
+      {
+        "city": "Logan Square",
+        "slug": "logan-square-il",
+        "state": "IL",
+        "content": "Logan Square's renaissance has created demand for roofing that blends historic charm with modern reliability. We've restored original features on century-old mansions along the boulevards while installing cutting-edge materials on newly constructed homes.\n\nOur team appreciates Logan Square's creative spirit, offering customized solutions for artist live/work spaces and music venues. We source materials from local suppliers whenever possible, supporting the neighborhood's independent businesses.",
+        "localContext": "Logan Square's architectural diversity requires roofing contractors with wide-ranging experience across eras and styles.",
+        "nearbyAreas": [
+          "Avondale",
+          "Humboldt Park",
+          "Bucktown"
+        ]
+      },
+      {
+        "city": "Oak Park",
+        "slug": "oak-park-il",
+        "state": "IL",
+        "content": "Oak Park's Frank Lloyd Wright legacy demands roofing contractors with preservation expertise. We've restored original cedar shake roofs on Prairie School masterpieces and replicated period-correct details for historic district compliance.\n\nOur team works closely with Oak Park's preservation commission to ensure all projects meet strict guidelines. We're equally skilled at updating Wright-inspired contemporary homes with modern materials that honor their architectural lineage.",
+        "localContext": "Oak Park's landmarked properties require roofing approaches that balance historical accuracy with contemporary performance.",
+        "nearbyAreas": [
+          "River Forest",
+          "Forest Park",
+          "Berwyn"
+        ]
+      },
+      {
+        "city": "Skokie",
+        "slug": "skokie-il",
+        "state": "IL",
+        "content": "Skokie's post-war housing boom created neighborhoods now needing thoughtful roof updates. We specialize in maintaining the character of these mid-century homes while improving their weather resistance.\n\nFrom the classic ranches near the Illinois Science + Technology Park to the larger colonials east of the Edens Expressway, we've worked on hundreds of Skokie roofs. Our team understands the village's specific permitting requirements and can advise on any needed approvals.",
+        "localContext": "Skokie's mature neighborhoods feature homes at the age where roof replacements become necessary.",
+        "nearbyAreas": [
+          "Evanston",
+          "Niles",
+          "Lincolnwood"
+        ]
+      },
+      {
+        "city": "Wilmette",
+        "slug": "wilmette-il",
+        "state": "IL",
+        "content": "Wilmette's North Shore location demands roofing that can handle intense lake-effect weather. We've installed impact-resistant materials on homes near the Baha'i Temple and designed custom snow-melting systems for properties along Sheridan Road.\n\nOur team understands Wilmette's architectural diversity, from the grand estates of Indian Hill to the charming cottages near the Metra station. We work discreetly in these upscale neighborhoods, maintaining pristine job sites throughout projects.",
+        "localContext": "Wilmette's lakefront properties need specialized roofing to withstand enhanced snow and wind loads.",
+        "nearbyAreas": [
+          "Evanston",
+          "Kenilworth",
+          "Glenview"
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Marta K.",
+        "rating": 5,
+        "service": "Storm Damage Repair",
+        "text": "When a derecho took off half our roof in Evanston, Carbon had us tarped within 3 hours. Their team handled all the insurance paperwork and even coordinated with our historic district committee. The repaired section blends perfectly with our 1920s Tudor.",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "James R.",
+        "rating": 5,
+        "service": "Metal Roofing",
+        "text": "Our Naperville home needed a roof that could handle heavy snow without constant maintenance. Carbon installed a gorgeous standing seam system that's already survived two Chicago winters flawlessly. The crew was meticulous about protecting our landscaping during installation.",
+        "date": "2025-01-22"
+      },
+      {
+        "name": "Aisha T.",
+        "rating": 5,
+        "service": "Commercial Roofing",
+        "text": "As property managers for a 12-unit Wicker Park building, we rely on Carbon's quarterly inspections. They caught a small leak in our flat roof before it caused interior damage, saving us thousands. Their after-hours emergency service is a lifesaver.",
+        "date": "2024-11-03"
+      },
+      {
+        "name": "David L.",
+        "rating": 5,
+        "service": "Gutter Installation",
+        "text": "After years of ice dams in Arlington Heights, Carbon's heated gutter system solved our problems completely. Their design moves water away from our foundation better than our old setup. The crew even adjusted our downspouts to avoid our prized hydrangeas.",
+        "date": "2024-09-18"
+      },
+      {
+        "name": "Sophia M.",
+        "rating": 5,
+        "service": "Roof Inspection",
+        "text": "The pre-purchase inspection on our Logan Square two-flat revealed $8,000 in hidden damage. Carbon's detailed report gave us negotiating power and peace of mind. A year later, we hired them to replace the whole roof - they honored their original quote despite material cost increases.",
+        "date": "2024-08-05"
+      },
+      {
+        "name": "Carlos V.",
+        "rating": 5,
+        "service": "Shingle Repair",
+        "text": "When wind tore shingles off our Schaumburg home, Carbon matched our 15-year-old architectural shingles perfectly. The repair took less than two hours and you can't tell where the damage was. Their communication from estimate to completion was excellent.",
+        "date": "2024-06-30"
+      },
+      {
+        "name": "Elena P.",
+        "rating": 5,
+        "service": "Roof Replacement",
+        "text": "Carbon replaced our Oak Park bungalow's roof with materials that passed historic review on first submission. They replicated our original drip edge details while adding modern ice/water shield. The crew cleaned up so thoroughly, our neighbors didn't realize work had happened.",
+        "date": "2024-05-12"
+      },
+      {
+        "name": "Thomas W.",
+        "rating": 5,
+        "service": "Roof Inspection",
+        "text": "As a first-time homeowner in Lakeview, I appreciated Carbon's educational approach. They explained every issue in our inspection report and prioritized repairs by urgency. When we're ready for replacement, they'll be our only call.",
+        "date": "2024-04-03"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Chicago Roofing Contractor | Carbon Roofing",
+        "description": "Family-owned Chicago roofing company specializing in storm damage repair, roof replacement, and historic home preservation across Cook County."
+      },
+      "about": {
+        "title": "About Carbon Roofing | Chicago Roofing Experts",
+        "description": "Learn about our Chicago roots and commitment to quality craftsmanship. Family-owned roofing contractor serving the metro area since 2012."
+      },
+      "services": {
+        "title": "Roofing Services in Chicago | Carbon Roofing",
+        "description": "Complete roofing services for Chicago homes and businesses: replacements, repairs, inspections, and specialty installations for all property types."
+      },
+      "contact": {
+        "title": "Contact Carbon Roofing | Chicago Roofing Quotes",
+        "description": "Get a free estimate from Chicago's trusted roofing team. Emergency storm damage repairs available 24/7 across Cook County."
+      },
+      "reviews": {
+        "title": "Carbon Roofing Reviews | Chicago Customer Stories",
+        "description": "Read verified reviews from Chicago homeowners and businesses about their experiences with Carbon Roofing's craftsmanship and service."
+      },
+      "service-areas": {
+        "title": "Chicago Roofing Service Areas | Carbon Roofing",
+        "description": "We serve Naperville, Evanston, Arlington Heights, and all Chicago neighborhoods with quality roofing solutions tailored to each community's needs."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    }
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "roof-replacement": "/images/service-roof-replacement.webp",
+      "storm-damage-repair": "/images/service-storm-damage-repair.webp",
+      "commercial-roofing": "/images/service-commercial-roofing.webp",
+      "gutter-installation": "/images/service-gutter-installation.webp",
+      "roof-inspection": "/images/service-roof-inspection.webp",
+      "shingle-repair": "/images/service-shingle-repair.webp",
+      "metal-roofing": "/images/service-metal-roofing.webp"
+    },
+    "servicesResponsive": {
+      "roof-replacement": {
+        "src": "/images/service-roof-replacement.webp",
+        "srcset": "/images/service-roof-replacement-400w.webp 400w, /images/service-roof-replacement-800w.webp 800w, /images/service-roof-replacement-1200w.webp 1200w, /images/service-roof-replacement.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "storm-damage-repair": {
+        "src": "/images/service-storm-damage-repair.webp",
+        "srcset": "/images/service-storm-damage-repair-400w.webp 400w, /images/service-storm-damage-repair-800w.webp 800w, /images/service-storm-damage-repair-1200w.webp 1200w, /images/service-storm-damage-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "commercial-roofing": {
+        "src": "/images/service-commercial-roofing.webp",
+        "srcset": "/images/service-commercial-roofing-400w.webp 400w, /images/service-commercial-roofing-800w.webp 800w, /images/service-commercial-roofing-1200w.webp 1200w, /images/service-commercial-roofing.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "gutter-installation": {
+        "src": "/images/service-gutter-installation.webp",
+        "srcset": "/images/service-gutter-installation-400w.webp 400w, /images/service-gutter-installation-800w.webp 800w, /images/service-gutter-installation-1200w.webp 1200w, /images/service-gutter-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "roof-inspection": {
+        "src": "/images/service-roof-inspection.webp",
+        "srcset": "/images/service-roof-inspection-400w.webp 400w, /images/service-roof-inspection-800w.webp 800w, /images/service-roof-inspection-1200w.webp 1200w, /images/service-roof-inspection.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "shingle-repair": {
+        "src": "/images/service-shingle-repair.webp",
+        "srcset": "/images/service-shingle-repair-400w.webp 400w, /images/service-shingle-repair-800w.webp 800w, /images/service-shingle-repair-1200w.webp 1200w, /images/service-shingle-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "metal-roofing": {
+        "src": "/images/service-metal-roofing.webp",
+        "srcset": "/images/service-metal-roofing-400w.webp 400w, /images/service-metal-roofing-800w.webp 800w, /images/service-metal-roofing-1200w.webp 1200w, /images/service-metal-roofing.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
